@@ -16,6 +16,10 @@ unidecode = "*"
 pypinyin = "*"
 pypinyin-dict = "*"
 jieba = "*"
+tqdm = "*"
+flask = "*"
+uvicorn = "*"
+asgiref = "*"
 
 [dev-packages]
 yapf = "*"
@@ -23,3 +27,6 @@ yapf = "*"
 [requires]
 python_version = "3.10"
 python_full_version = "3.10.9"
+
+[scripts]
+webapp = "python webapp.py"
