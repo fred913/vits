@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "ca95302f6bba1ea1dbdc247e71a7740473e651cae921e8fca4ad6a68003211fc"
+            "sha256": "a47e7492fc8ae78643c64917c10225e0d6080701b48e7670d9924c820a0695fe"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -874,6 +874,12 @@
             "index": "pypi",
             "version": "==3.7.0"
         },
+        "monotonic-align": {
+            "hashes": [
+                "sha256:3e209f269f449463af6f23bc4b479a7b262b382859a7424e88324a84209f7821"
+            ],
+            "version": "==0.0.0"
+        },
         "msgpack": {
             "hashes": [
                 "sha256:002b5c72b6cd9b4bafd790f364b8480e859b4712e91f43014fe01e4f957b8467",
@@ -1253,7 +1259,7 @@
                 "sha256:0123cacc1627ae19ddf3c27a5de5bd67ee4586fbdd6440d9748f8abb483d3e86",
                 "sha256:961d03dc3453ebbc59dbdea9e4e11c5651520a876d0f4db161e8674aae935da9"
             ],
-            "markers": "python_version >= '2.7' and python_version not in '3.0, 3.1, 3.2'",
+            "markers": "python_version >= '2.7' and python_version not in '3.0, 3.1, 3.2, 3.3'",
             "version": "==2.8.2"
         },
         "rdflib": {
@@ -1463,7 +1469,7 @@
                 "sha256:1e61c37477a1626458e36f7b1d82aa5c9b094fa4802892072e49de9c60c4c926",
                 "sha256:8abb2f1d86890a2dfb989f9a77cfcfd3e47c2a354b01111771326f8aa26e0254"
             ],
-            "markers": "python_version >= '2.7' and python_version not in '3.0, 3.1, 3.2'",
+            "markers": "python_version >= '2.7' and python_version not in '3.0, 3.1, 3.2, 3.3'",
             "version": "==1.16.0"
         },
         "soundfile": {
@@ -1668,6 +1674,14 @@
         }
     },
     "develop": {
+        "wheel": {
+            "hashes": [
+                "sha256:965f5259b566725405b05e7cf774052044b1ed30119b5d586b2703aafe8719ac",
+                "sha256:b60533f3f5d530e971d6737ca6d58681ee434818fab630c83a734bb10c083ce8"
+            ],
+            "markers": "python_version >= '3.7'",
+            "version": "==0.38.4"
+        },
         "yapf": {
             "hashes": [
                 "sha256:8fea849025584e486fd06d6ba2bed717f396080fd3cc236ba10cb97c4c51cf32",

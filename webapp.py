@@ -1,3 +1,7 @@
+import logging
+
+logging.basicConfig(level=logging.WARN)
+
 import os
 import random
 from flask import Flask, jsonify, request, send_file
