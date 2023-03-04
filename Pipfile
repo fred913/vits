@@ -1,0 +1,24 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+cython = "==0.29.21"
+librosa = "==0.8.0"
+matplotlib = "==3.3.1"
+numpy = "==1.18.5"
+phonemizer = "==2.2.1"
+scipy = "==1.5.2"
+tensorboard = "==2.3.0"
+torchvision = "==0.7.0"
+unidecode = "==1.1.1"
+pypinyin = "*"
+pypinyin-dict = "*"
+jieba = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.10"
+python_full_version = "3.10.9"
